@@ -34,10 +34,6 @@ To transform sales data into meaningful business insights and support data-drive
 8. Corporate Segment
 9. Home Office Segment
 
-## 📸 Dashboard Preview
-
-![Sales Analytics Dashboard](Screenshots/Sales_Overview.png)
-
 ## ⚙️ Data Preparation
 
 - Data cleaning and transformation using Power Query.
