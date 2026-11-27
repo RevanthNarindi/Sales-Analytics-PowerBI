@@ -50,7 +50,7 @@ Created measures for Total Sales, Total Cost, Net Sales, Net Profit, Profit %, M
 
 **Revanth Narindi**
 
-Aspiring Data Analyst | Power BI | SQL | Excel
+Aspiring Data Analyst | Power BI | SQL | Excel | Python
 
 🔗 [Connect with me on LinkedIn](https://www.linkedin.com/in/revanth-narindi/)
 
