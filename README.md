@@ -1,180 +1,63 @@
 # 📊 Sales Analytics Dashboard | Power BI
 
-An interactive Sales Analytics Dashboard built using **Microsoft Power BI** to analyze sales performance, profitability, product contribution, customer performance, regional trends, and sales targets.
+An interactive Sales Analytics Dashboard developed using **Microsoft Power BI** to analyze sales performance, profitability, product contribution, customer trends, and sales targets.
 
-This project demonstrates an end-to-end data analytics workflow, covering data preparation, data transformation, data modelling, DAX calculations, and interactive dashboard development.
+## 🎯 Project Objective
 
----
-
-## 🎯 Project Overview
-
-The objective of this project is to transform raw sales data into meaningful business insights through interactive visualizations and analytical measures.
-
-The dashboard helps explore sales performance across different dimensions, identify business trends, evaluate profitability, understand customer and product contributions, and compare actual sales against business targets.
+To transform sales data into meaningful business insights and support data-driven decision-making through interactive visualizations and analytical reporting.
 
 ## 🛠️ Tools & Technologies
 
-- **Microsoft Power BI Desktop** – Dashboard development and data visualization
-- **Power Query** – Data cleaning and transformation
-- **DAX (Data Analysis Expressions)** – Measures and analytical calculations
-- **Microsoft Excel / CSV** – Data sources
-- **Data Modelling** – Relationships between fact and dimension tables
+- Microsoft Power BI
+- Power Query
+- DAX
+- Microsoft Excel / CSV
+- Data Modelling
 
-## 📸 Dashboard Preview
+## 📌 Key Features
 
-Explore the interactive dashboard and its different analytical views.
-
-![Sales Analytics Dashboard](Screenshots/Sales_Overview.png)
-
-*The dashboard provides an overview of sales performance, profitability, and regional and category-wise analysis.*
-
-## 📌 Key Features & Analysis
-
-### 1. Sales & Profit Analysis
-- Total Sales and Profit Percentage
-- Sales performance by Category
-- Profit analysis by Region
-- Total Cost and Net Sales analysis
-
-### 2. Time Intelligence Analysis
-- Average Sales by Day
-- Moving Average Sales
-- Current Year vs Last Year Sales
-- Month-wise Sales Analysis
-- Cumulative Sales Analysis
-
-### 3. Product & Customer Analysis
-- Top N Product Analysis
-- Top 3 Product Sales Contribution
-- Top 3 Product Share Percentage
-- Top 3 Customer Sales
-- Top 3 Customer Share Percentage
-
-### 4. Sales Target Analysis
-- Actual Sales vs Target Sales
-- Dynamic Target Percentage Parameter
-- Difference from Target
-- Target Achievement Analysis
-- KPI and Gauge Visualizations
-
-### 5. Customer Segment Analysis
-- Consumer Segment
-- Corporate Segment
-- Home Office Segment
-- Sales and Profitability Analysis by Segment
+- **Sales & Profit Analysis:** Sales, cost, profit, category and regional performance.
+- **Time Intelligence:** Moving averages, MTD, YTD and year-over-year comparisons.
+- **Product Analysis:** Top N products and top-three product contribution.
+- **Customer Analysis:** Top customers and customer segment performance.
+- **Target Analysis:** Actual vs Target Sales, dynamic percentage parameters and KPI indicators.
 
 ## 📈 Dashboard Pages
 
-The report contains the following analytical pages:
+1. Home
+2. Total Sales and Profit %
+3. Average Sales
+4. All Sales Parameter
+5. Top N Sales and Shares
+6. Current Sales vs Target
+7. Consumer Segment
+8. Corporate Segment
+9. Home Office Segment
 
-| Dashboard Page | Analysis |
-|---|---|
-| Home | Project introduction and key performance areas |
-| Total Sales and Profit % | Sales and profitability by category and region |
-| Average Sales | Daily average sales and moving average trends |
-| All Sales Parameter | Regional, category and monthly sales analysis |
-| Top N Sales and Shares | Top products and sales contribution |
-| Current Sales vs Target | Actual sales, targets and variance analysis |
-| Consumer Segment | Consumer sales performance |
-| Corporate Segment | Corporate sales performance |
-| Home Office Segment | Home Office sales performance |
+## 📸 Dashboard Preview
 
-## ⚙️ Data Preparation & Transformation
+![Sales Analytics Dashboard](Screenshots/Sales_Overview.png)
 
-Data preparation and transformation were performed using Power Query.
+## ⚙️ Data Preparation
 
-Key activities included:
+- Data cleaning and transformation using Power Query.
+- Combining sales datasets.
+- Removing duplicates and handling null values.
+- Preparing customer, product, region and calendar tables.
+- Creating relationships between tables.
 
-- Importing sales data and supporting dimension tables.
-- Combining sales datasets from different periods.
-- Promoting headers and correcting data types.
-- Removing unnecessary columns and duplicate records.
-- Handling null values and filtering invalid Order IDs.
-- Merging sales records with sales return information.
-- Preparing customer, product, region, and calendar tables.
+## 🧮 DAX Analysis
 
-## 🧮 DAX Measures & Calculations
-
-DAX was used to create analytical measures and support interactive reporting.
-
-Some important calculations include:
-
-| Measure | Purpose |
-|---|---|
-| Total Sales | Calculates total sales |
-| Total Cost | Calculates total cost |
-| Net Sales | Calculates sales excluding returned records |
-| Net Profit | Calculates net sales minus net cost |
-| Profit % | Evaluates profitability |
-| Average Sales | Calculates average sales |
-| Moving Average Sales | Analyzes sales trends over time |
-| Last Year Sales | Compares previous-year performance |
-| MTD Sales | Calculates month-to-date sales |
-| YTD Sales | Calculates year-to-date sales |
-| Top 3 Product Share | Measures top-three product contribution |
-| Top 3 Customer Share | Measures top-three customer contribution |
-| Target Sales | Calculates sales targets using a dynamic percentage |
-| Difference from Target | Measures actual sales against target |
-
-## 🗂️ Repository Structure
-
-```text
-Sales-Analytics-PowerBI/
-│
-├── Dashboard/
-│   └── Sales_Analytics.pbix
-│
-├── Dataset/
-│   └── Sales_Data.xlsx
-│
-├── Documentation/
-│   ├── Data_Documentation.pdf
-│   └── Visual_Documentation.pdf
-│
-├── Screenshots/
-│   ├── Home.png
-│   ├── Sales_Overview.png
-│   └── Product_Analysis.png
-│
-└── README.md
-```
-
-## 🚀 How to Use This Project
-
-1. Clone or download this repository.
-2. Open the `Dashboard` folder.
-3. Download and open the `.pbix` file using Microsoft Power BI Desktop.
-4. If prompted, configure the source file path to the dataset.
-5. Refresh the data if required.
-6. Explore the dashboard using the available filters, slicers, bookmarks, and navigation buttons.
-
-## 📚 Project Documentation
-
-Detailed documentation is available in the repository:
-
-- **[Data Documentation](Documentation/Data_Documentation.pdf)** – Covers data preparation, Power Query transformations, data modelling, relationships, and DAX measures.
-- **[Visual Documentation](Documentation/Visual_Documentation.pdf)** – Covers report layout, visual formatting, slicers, parameters, bookmarks, and navigation.
-
-## 💡 Key Learnings
-
-Through this project, I gained practical experience in:
-
-- Cleaning and transforming data using Power Query.
-- Creating and managing relationships between tables.
-- Writing DAX measures for business analysis.
-- Applying time intelligence calculations.
-- Developing interactive Power BI dashboards.
-- Implementing dynamic parameters and bookmarks.
-- Translating business requirements into meaningful visual insights.
+Created measures for Total Sales, Total Cost, Net Sales, Net Profit, Profit %, Moving Average Sales, Last Year Sales, MTD, YTD, Top 3 Product Share and Target Sales.
 
 ## 👨‍💻 Author
 
 **Revanth Narindi**
 
-Aspiring Data Analyst | Power BI | SQL | Excel | Data Analytics
+Aspiring Data Analyst | Power BI | SQL | Excel
 
-🔗 **LinkedIn:** [Connect with me on LinkedIn](https://www.linkedin.com/in/revanth-narindi/)
+🔗 [Connect with me on LinkedIn](https://www.linkedin.com/in/revanth-narindi/)
 
 ---
 
-⭐ If you find this project useful, feel free to explore the repository and connect with me!
+⭐ Feel free to explore the project and connect with me!
